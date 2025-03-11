@@ -79,3 +79,14 @@ ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img img, .services-container, .portfolio-box, .testimonial-wrapper, .contact form', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left' });
 ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { origin: 'right' });
+
+document.getElementById("sendBtn").addEventListener("click", function() {
+    let message = document.getElementById("messageInput").value;
+    
+    if (!message.trim()) {
+        alert("Please enter a message!");
+        return;
+    }
+
+    console.log("Message sent:", message);
+});
