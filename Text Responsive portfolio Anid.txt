@@ -11,7 +11,7 @@ About Us - Projects - Contact
 Hello, I'm
 
 .home__name
-Anid <br> Wrooks
+Empire <br> Tech
 
 .home__split
 Creative
@@ -22,9 +22,9 @@ Developer
 
 .home__social
 https://www.linkedin.com/
-https://github.com/
+https://github.com/efeurhobobullish
 https://dribbble.com/
-https://about.gitlab.com/
+https://about.gitlab.com/efeurhobobullish
 
 .home__cv
 RESUME
@@ -193,27 +193,28 @@ Social Media
 Write Me & We'll Talk
 
 .contact__address
-Willer123@email.com
-Lima, Peru
+Contact@empiretech.net.ng
+Warri, Delta State
 
 .contact__link
 Linkedin - GitHub - Dribbble - GitLab
 
 https://www.linkedin.com/
-https://github.com/
+https://github.com/efeurhoboullish
 https://dribbble.com/
-https://about.gitlab.com/
+https://about.gitlab.com/efeurhobobullish
 
 WhatsApp - Messenger - Telegram -  instagram
 
-https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!
-https://m.me/bedimcode
-https://t.me/telegram
-https://www.instagram.com/
+https://api.whatsapp.com/send?phone=2348078582627&text=Hello, more information!
+https://m.me/empiretech
+https://t.me/only_one_empire
+https://www.instagram.com/only_one__empire
 
 ========== FOOTER ==========
 .footer__copy
-All Rights Reserved By <span>Bedimcode</span>
+All Rights Reserved By <span>Empire Tech</span>
 
 .footer__year
 &#169; 2025
+
