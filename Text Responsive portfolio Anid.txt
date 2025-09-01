@@ -1,6 +1,6 @@
 ========== NAV ==========
 .nav__logo
-Anid
+Empire Tech
 
 .nav__link
 About Us - Projects - Contact
@@ -16,8 +16,10 @@ Empire <br> Tech
 .home__split
 Creative
 
-.home__profession-1 .home__profession-2
+.home__profession-1
 Developer
+
+.home__profession-2
 & Designer
 
 .home__social
@@ -50,34 +52,53 @@ Resume
 I Make Incredible <br>
 <span>Projects</span>
 
-.projects__number h1 - h3 .projects__title .projects__subtitle .projects__description
+.projects__number
 01
+.projects__title
 Web
+.projects__subtitle
 Barbershop <br> website
+.projects__description
 Technologies used
 HTML, CSS, JavaScript, Gsap, Swiper Js and Figma.
 
+.projects__number
 02
+.projects__title
 Design
+.projects__subtitle
 Interface Design <br> For Ice Cream Shop
+.projects__description
 Technologies used
 HTML, CSS, JavaScript, Gsap, Swiper Js and Figma.
 
+.projects__number
 03
+.projects__title
 Web
+.projects__subtitle
 SEO For Coffee <br> Websites
+.projects__description
 Technologies used
 HTML, CSS, JavaScript, Gsap, Swiper Js and Figma.
 
+.projects__number
 04
+.projects__title
 Design
+.projects__subtitle
 Web Design <br> For Restaurant
+.projects__description
 Technologies used
 HTML, CSS, JavaScript, Gsap, Swiper Js and Figma.
 
+.projects__number
 05
+.projects__title
 Web
+.projects__subtitle
 Fast Food <br> Website
+.projects__description
 Technologies used
 HTML, CSS, JavaScript, Gsap, Swiper Js and Figma.
 
@@ -91,40 +112,63 @@ HTML, CSS, JavaScript, Gsap, Swiper Js and Figma.
 Experience
 Education
 
-.work__title .work__subtitle .work__year .work__description
+.work__title
 Web <br> Developer
+.work__subtitle
 Google Inc
+.work__year
 2020
+.work__description
 Web developer handling technologies such as Angular, 
 databases, CMS, assisting with web optimization.
 
+.work__title
 Web <br> Designer
+.work__subtitle
 Google Inc
+.work__year
 2022
+.work__description
 Web developer handling technologies such as Angular, 
 databases, CMS, assisting with web optimization.
 
+.work__title
 SEO & Web <br> Optimization
+.work__subtitle
 Google Inc
+.work__year
 Now
+.work__description
 Web developer handling technologies such as Angular, 
 databases, CMS, assisting with web optimization.
 
+.work__title
 Systems <br> Engineering
+.work__subtitle
 University
+.work__year
 2010
+.work__description
 College student, learning the basics of programming, 
 web development, and other topics, graduating with honors.
 
+.work__title
 Web <br> Programming
+.work__subtitle
 University
+.work__year
 2015
+.work__description
 College student, learning the basics of programming, 
 web development, and other topics, graduating with honors.
 
+.work__title
 Usability <br> (UX/UI)
+.work__subtitle
 University
+.work__year
 2018
+.work__description
 College student, learning the basics of programming, 
 web development, and other topics, graduating with honors.
 
@@ -133,23 +177,28 @@ web development, and other topics, graduating with honors.
 .section__title
 What I <span>Offer</span>
 
-.services__title .services__description .services__subtitle .services__skills
+.services__title
 Developer
+.services__description
 Website creation with HTML, CSS, JavaScript. 
 Professional websites with TypeScript, React, 
 Node JS, and lots of creativity.
-
+.services__subtitle
 Skills & Tools
+.services__skills
 HTML - CSS - JavaScript - React - TypeScript
 Node Js - Next Js - PHP - GitHub
 
+.services__title
 Design
+.services__description
 Web designer with Figma and Sketch, creating 
 motion designs with After Effects, creativity 
 and design at its best.
-
+.services__subtitle
 Skills & Tools
-Figma - Adobe XD - Photoshop - Ilustrator
+.services__skills
+Figma - Adobe XD - Photoshop - Illustrator
 Sketch - 3D Modeling - After Effects
 
 
@@ -167,7 +216,7 @@ Jems Guiller
 .testimonials__number
 5.0
 
-.testimonials p
+.testimonials__p
 The company offers many easy-to-use services, 
 with hard work and round-the-clock support on 
 all projects.
@@ -199,17 +248,21 @@ Warri, Delta State
 .contact__link
 Linkedin - GitHub - Dribbble - GitLab
 
+.contact__social
 https://www.linkedin.com/
-https://github.com/efeurhoboullish
+https://github.com/efeurhobobullish
 https://dribbble.com/
 https://about.gitlab.com/efeurhobobullish
 
-WhatsApp - Messenger - Telegram -  instagram
+.contact__link
+WhatsApp - Messenger - Telegram - Instagram
 
+.contact__social
 https://api.whatsapp.com/send?phone=2348078582627&text=Hello, more information!
 https://m.me/empiretech
 https://t.me/only_one_empire
 https://www.instagram.com/only_one__empire
+
 
 ========== FOOTER ==========
 .footer__copy
@@ -217,4 +270,3 @@ All Rights Reserved By <span>Empire Tech</span>
 
 .footer__year
 &#169; 2025
-
