@@ -154,7 +154,17 @@ img {
   position:absolute;
   filter: blur(35px);
   z-index: -1;
+  animation: animateBlob 5s linear infinite;
+}
+
+@keyframes animateBlob {
+  0%{ 
+    transform: rotate(0);
+  }
+  100%{ 
+    transform: rotate(360deg);
   
+ 
 /* Blob */
 .blob::after {
   content: "";
@@ -199,6 +209,14 @@ img {
               var(--body-color) 60%,
               hsla(240, 100%, 2%, 0) 100%);
   z-index: var(--z-fixed);
+}
+
+.header .blob-animate {
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  animation-duration: 10s;
 }
 .nav{
   display: flex;
