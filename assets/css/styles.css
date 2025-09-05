@@ -144,17 +144,17 @@ img {
 
 /*=============== BLOB ===============*/
 /* Blob animate */
-.blob {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 20rem;
-  height: 20rem;
-  background-color: var(--first-color);
+.blob-animate {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(180deg, 
+              var(--first-color-alt) 20%,
+              var(--first-color-light) 100%);
   border-radius: 50%;
-  transform: translate(-50%, -50%);
-  animation: blob-animate 6s infinite alternate ease-in-out;
-}
+  position:absolute;
+  filter: blur(35px);
+  z-index: -1;
+  
 /* Blob */
 .blob::after {
   content: "";
@@ -205,8 +205,38 @@ img {
  justify-content: space-between;
  padding-block: 1rem;
 }
-              
-              /*Active link */
+
+.nav__logo {
+font-family: var(--second-font);
+font-weight: var(--font-semi-bold);
+color: var(--title-color);
+align-self: flex-start;
+transition: color .4s;
+}
+
+.nav__logo:hover {
+  color: var(--first-color);
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: .5rem;
+
+}
+
+.nav__link {
+  color: var(--text-color);
+  font: var(--font-semi-bold) var(--small-font-size) var(--second-font);
+  transition: color .4s, text shasow .4s;
+}
+
+.nav__link:hover {
+  color: var(--first-color);
+  text-shadow: 0 8px 16px var(--first-color);
+
+/*Active link */
 .nav {
   height: var(--header-height);
   display: flex;
