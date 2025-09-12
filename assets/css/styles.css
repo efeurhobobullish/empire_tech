@@ -345,6 +345,51 @@ transition: color .4s;
   left: 0;
 }
 
+.home__profession-2{
+  transform: translateY(-1rem);
+}
+
+.home__social {
+  z-index: 2;
+  left: 0;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 75rem;
+}
+
+.home__social-link{
+  color: var(--title-color);
+  font-size: 1.25rem;
+  transition: color .4s, text-shadow .4s;
+}
+
+.home__social-link:hover {
+  color: var(--first-color);
+  transform: translateX(.25rem);
+}
+
+.home__cv{
+  z-index: 2;
+  right: -2.5rem;
+  bottom: 2.5rem;
+  rotate: 90deg;
+  color: var(--text-color-light);
+  font: var(--font-medium) var(--small-font-size) var(--second-font);
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+  transition: color .4s;
+}
+
+.home__cv i{
+  font-size: 1rem;
+}
+
+.home__cv:hover {
+  color: var(--first-color);
+}
+
 /*=============== BUTTON ===============*/
 .button {
   display: inline-block;
