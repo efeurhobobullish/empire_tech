@@ -263,10 +263,14 @@ transition: color .4s;
 
 /*=============== HOME ===============*/
 .home {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
+  position: relative;
+  padding-top: 4rem;
+  row-gap: 3rem;
 }
+
+.home__greeting {
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-regular);
 
 /*=============== BUTTON ===============*/
 .button {
