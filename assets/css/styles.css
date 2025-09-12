@@ -211,13 +211,6 @@ img {
   z-index: var(--z-fixed);
 }
 
-.header .blob-animate {
-  top: 0;
-  left: 0;
-  width: 150px;
-  height: 150px;
-  animation-duration: 10s;
-}
 .nav{
   display: flex;
  justify-content: space-between;
