@@ -548,15 +548,64 @@ transition: color .4s;
     width: initial;
     padding-top: 3rem;
 }
+
+.home__perfil{
+    width: 600px;
+}
+
+.home__image .blob-animate{
+    height: 450px;
+    width: 450px;
+    bottom: 2rem;
+    filter: blur(50px);
+}
+
+.home__shadow{
+    width: 700px;
+    height: 700px;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    background: linear-gradient(180deg, 
+                hsla(240, 100%, 2%, 0) 60%,
+                hsl(240, 100%, 2%) 95%);
+}
+.home__data{
+    position: absolute;
+    top: 12rem;
+    left: 3rem;
+    z-index: 2;
+}
+.home__info{
+  top: 12rem;
+  right: 1rem;
+  bottom: initial;
+}
+.home__split{
+    font-size: var(--h2-font-size);
+}
+.home__profession-1{
+    font-size: var(--bigger-font-size);
+    text-align: initial;
+}
+.home__profession-2{
+    font-size: var(--bigger-font-size);
+    transform: translateY(-1.5rem);
+}
+.home__social{
+    bottom: 3rem;
+    row-gap: 1.5rem;
+}
+.home__social-link{
+    font-size: 1.5rem;
+}
+.home__cv{
+    font-size: var(--normal-font-size);
+    rotate: 0deg;
+    right: 0;
+}
+}
 /* For 2K resolutions (2048 x 1152, 2048 x 1536) */
-@media screen and (min-width: 1920px) {
-  .container {
-    max-width: 1320px;
-  }
-}
+
+
 /* Custom cursor is hidden for mobile devices */
-@media screen and (max-width: 768px) {
-  .cursor {
-    display: none;
-  }
-}
