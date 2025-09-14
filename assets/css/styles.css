@@ -504,6 +504,17 @@ transition: color .4s;
   justify-content: space-between;
 }
 
+.projects__number h1{
+  font-size: var(--biggest-font-size);
+}
+
+.projects__number h3{
+  font-weight: var(--font-regular);
+  font-size: var(--h3-font-size);
+}
+
+
+
 
 /* Swiper class */
 .swiper-button-next, .swiper-button-prev {
