@@ -681,6 +681,46 @@ transition: color .4s;
     rotate: 0deg;
     right: 0;
 }
+
+.about__container{
+    grid-template-columns: repeat(2, 500px);
+    align-items: center;
+    column-gap: 5.5rem;
+    padding-top: 2rem;
+  }
+  .about__data,
+  .about__data, .section__title{
+    text-align: initial;
+    z-index: 2;
+  }
+
+.about__description{
+    margin-bottom: 3rem;
+
+  }
+
+  .about__perfil{
+    width: 500px;
+  }
+  .about__image{
+    order: -1;
+  }
+  .about__image .blob-animate{
+    width: 200px;
+    height: 200px;
+    filter: blur(50px);
+  }
+  .about__image .blob-animate:nth-child(1){
+    left: 4rem;
+    top: 4rem;
+  }
+  .about__image .blob-animate:nth-child(2){
+    right: -1rem
+    bottom: 3rem;
+  }
+  .about__shadow{
+    height: 600px;
+    bottom: 0;
 }
 /* For 2K resolutions (2048 x 1152, 2048 x 1536) */
 
