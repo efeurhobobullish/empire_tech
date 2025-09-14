@@ -167,19 +167,18 @@ img {
 }
  
 /* Blob */
-.blob::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100%;
-  height: 100%;
-  background-color: var(--first-color-light);
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  filter: blur(3rem);
-  z-index: -1;
+.blob{
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(180deg,
+              var(--first-color) 0%,
+              var(var(--first-color-alt) 100%);
+              border-radius: 50%;
+              filter: blur(50px);
+              position: absoblute;
+              z-index: -1;
 }
+
 
 /*=============== CUSTOM CURSOR ===============*/
 .cursor {
@@ -475,9 +474,35 @@ transition: color .4s;
 
 
 /*=============== PROJECTS ===============*/
-.projects__container {
-  row-gap: 2rem;
+.projects .section__title{
+  text-align: initial;
+  margin-left: 1.5rem;
 }
+
+.projects__card{
+  position: relative;
+  background-color: var(--container-color);
+  padding: 1.5rem;
+  border-radius: 3rem;
+  overflow: hidden;
+}
+
+.projects__card .blob{
+  z-index: 0;
+  right: -7.75rem;
+  bottom: 0;
+}
+
+.projects__number, .projects__data, .projects__image{
+  position: relative;
+  z-index: 1;
+}
+
+.projects__number{
+  display: flex;
+  align-items: center;
+}
+
 
 /* Swiper class */
 .swiper-button-next, .swiper-button-prev {
@@ -716,7 +741,7 @@ transition: color .4s;
     top: 4rem;
   }
   .about__image .blob-animate:nth-child(2){
-    right: -1rem
+    right: -1rem;
     bottom: 3rem;
   }
   .about__shadow{
