@@ -564,8 +564,9 @@ transition: color .4s;
 }
 
 /* Swiper class */
-.swiper-button-next, .swiper-button-prev {
-  color: var(--first-color);
+.projects__swiper {
+  margin-inline: initial;
+  padding-bottom: 2rem;
 }
 
 /*=============== WORK ===============*/
