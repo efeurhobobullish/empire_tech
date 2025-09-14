@@ -513,7 +513,46 @@ transition: color .4s;
   font-size: var(--h3-font-size);
 }
 
+.projects__data{
+  margin-block: 2rem;
+}
 
+.projects__tittle{
+  font-size: var(--h2-font-size);
+  margin-bottom: 1rem;
+}
+
+.projects__subtitle{
+  font-family: var(--second-font);
+  font-size: small;
+  margin-bottom: .5rem;
+}
+
+.projects__description{
+  font-size: var(--small-font-size);
+}
+
+.projects__img{
+  border-radius: 1.5rem;
+}
+
+.projects__button{
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  background-color: var(--body-color);
+  border: 3px solid var(--first-color);
+  border-radius: 50%;
+  color: var(--title-color);
+  font-size: 2rem;
+  position: absolute;
+  top: .75rem;
+  right: .75rem;
+/*  opacity: 0;*/
+/*  pointer-events: none;*/
+  transition: box-shadow .4s, opacity .4s;
+}
 
 
 /* Swiper class */
