@@ -501,6 +501,7 @@ transition: color .4s;
 .projects__number{
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 
